@@ -56,6 +56,7 @@
       //  CREATE MATRIX AND MAP
       //*******************************************************************
       d3.csv('data/hair.csv', function (error, data) {
+        console.log(data);
         var mpr = chordMpr(data);
 
         mpr
@@ -67,6 +68,8 @@
             if (!recs[0]) return 0;
             return +recs[0].count;
           });
+        console.log(data);
+        console.log(mpr.getMatrix());
         drawChords(mpr.getMatrix(), mpr.getMap());
       });
       //*******************************************************************
@@ -81,8 +84,8 @@
 
 
         var fill = d3.scale.ordinal()
-            .domain(d3.range(4))
-            .range(["#000000", "#FFDD89", "#957244", "#F26223"]);
+            .domain(d3.range(6))
+            .range(["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"]);
 
         var chord = d3.layout.chord()
             .padding(.02)
@@ -114,8 +117,22 @@
             .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
 
         g.append("svg:path")
+            .attr("id", function(d) { return rdr(d).gname; })
             .style("stroke", "black")
-            .style("fill", function(d) { return fill(d.index); })
+            .style("fill", function(d) { 
+               //console.log(rdr(d).gname);
+               if (rdr(d).gname === 'Dopamine system')
+                   return "#1f77b4";
+               else if (rdr(d).gname === 'Noradrenaline system')
+                   return "#ff7f0e";
+               else if (rdr(d).gname === 'Histamine system')
+                   return "#2ca02c";
+               else if (rdr(d).gname === 'Acetycholine system')
+                   return "#9467bd";
+               else if (rdr(d).gname === 'serotonin system')
+                   return "#8c564b";
+               else
+                   return"#7f7f7f"; })
             .attr("d", arc);
 
         g.append("svg:text")
@@ -136,7 +153,21 @@
               .enter().append("svg:path")
                 .attr("class", "chord")
                 .style("stroke", function(d) { return d3.rgb(fill(d.target.index)).darker(); })
-                .style("fill", function(d) { return fill(d.target.index); })
+                .style("fill", function(d) { 
+                   console.log(rdr(d).tname);
+                   if (rdr(d).tname === 'Dopamine system')
+                       return "#1f77b4";
+                   else if (rdr(d).tname === 'Noradrenaline system')
+                       return "#ff7f0e";
+                   else if (rdr(d).tname === 'Histamine system')
+                       return "#2ca02c";
+                   else if (rdr(d).tname === 'Acetycholine system')
+                       return "#9467bd";
+                   else if (rdr(d).tname === 'Serotonin system') {
+                       console.log('matched Serotonin system!');
+                       return "#8c564b";}
+                   else
+                       return"#7f7f7f"; })
                 .attr("d", d3.svg.chord().radius(r0))
                 .on("mouseover", function (d) {
                   d3.select("#tooltip")

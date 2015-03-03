@@ -11,18 +11,18 @@ has,prefers,count
 "Hypothalamus","Noradrenaline system",2000
 "Noradrenaline system","Ventral tegmental area",80
 "Ventral tegmental area","Noradrenaline system",2000
-"Dopamine sytstem","Amygdala",80
-"Amygdala","Dopamine sytstem",2000
-"Dopamine sytstem","Cingulate cortex",80
-"Cingulate cortex","Dopamine sytstem",2000
-"Dopamine sytstem","Hippocampus",80
-"Hippocampus","Dopamine sytstem",2000
-"Dopamine sytstem","Nucleas accumbens",80
-"Nucleaus accumbens","Dopamine sytstem",2000
-"Dopamine sytstem","Olfactory bulb",80
-"Olfactory bulb","Dopamine sytstem",2000
-"Dopamine sytstem","Prefrontal cortex",80
-"Prefrontal cortex","Dopamine sytstem",2000
+"Dopamine system","Amygdala",80
+"Amygdala","Dopamine system",2000
+"Dopamine system","Cingulate cortex",80
+"Cingulate cortex","Dopamine system",2000
+"Dopamine system","Hippocampus",80
+"Hippocampus","Dopamine system",2000
+"Dopamine system","Nucleas accumbens",80
+"Nucleaus accumbens","Dopamine system",2000
+"Dopamine system","Olfactory bulb",80
+"Olfactory bulb","Dopamine system",2000
+"Dopamine system","Prefrontal cortex",80
+"Prefrontal cortex","Dopamine system",2000
 "Histamine system","Cerebral cortex",80
 "Cerebral cortex","Histamine system",2000
 "Histamine system","Hippocampus",80
