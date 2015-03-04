@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../common/delimited-favicon-v4.ico">
     <style>
+     /* Adapted from:
+           http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3, by Steve hall
+     */
       #tooltip {
         color: white;
         opacity: .9;
@@ -47,12 +50,39 @@
     </script>
   </head>
   <body>
+  <h1 style = "text-align:center; color:steelblue"><bold>Brain diseases and associated neurotransmitter pathways..</bold></h1>
+    <!-- Your D3.js code for making a Bar Graph -->
+    <script type="text/javascript" src="scatterplot.js"></script>
+    <!-- Submission Info -->
+    <h4>Created by "John Collins, Vincent Stevens, Scott McLean, Jose Lopex." </h4>
+    <br> <p>CMPS 165, Data Programming for Visualization</p>
+
+    <h4>Below is a visualization of neurotransmitter pathways. Interactive elements related to brain
+        diseases are not yet implemented.</h4>
+   
+    <!-- Create a list using <ul> and <li> tag -->   
+    <h4>Files Submitted:</h4>
+    
+    <ul>
+      <li>Brainmapping.html</li>
+      <li>mapper.js, by Steven Hall</li>
+      <li>underscore.js</li>
+      <li>BrainMapping.csv</li>
+      <li>README.md</li>
+    </ul>
+      
+    <h4> Sources:</h4>
+    <ul>
+      <li><a href="http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3">Chord Diagrams in D3 writen by <i> Steven Hall</i></li>
+    </ul>
     <div id="tooltip"></div>
     <script src="lib/d3.js"></script>
     <script src="lib/underscore.js"></script>
     <script src="js/mapper.js"></script>
     <script>
       //*******************************************************************
+      //  Adapted from:
+      //      http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3, by Steve hall
       //  CREATE MATRIX AND MAP
       //*******************************************************************
       d3.csv('data/BrainMapping.csv', function (error, data) {
