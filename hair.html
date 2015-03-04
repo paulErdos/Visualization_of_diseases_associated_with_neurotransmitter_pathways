@@ -129,7 +129,7 @@
                    return "#2ca02c";
                else if (rdr(d).gname === 'Acetycholine system')
                    return "#9467bd";
-               else if (rdr(d).gname === 'serotonin system')
+               else if (rdr(d).gname === 'Serotonin system')
                    return "#8c564b";
                else
                    return"#7f7f7f"; })
@@ -152,6 +152,7 @@
                 .data(chord.chords())
               .enter().append("svg:path")
                 .attr("class", "chord")
+                .attr("id",function(d) { return rdr(d).tname + ' arc'; })
                 .style("stroke", function(d) { return d3.rgb(fill(d.target.index)).darker(); })
                 .style("fill", function(d) { 
                    console.log(rdr(d).tname);
@@ -171,7 +172,7 @@
                 .attr("d", d3.svg.chord().radius(r0))
                 .on("mouseover", function (d) {
                   d3.select("#tooltip")
-                    .style("visibility", "visible")
+                    .style("visibility", "hidden")
                     .html(chordTip(rdr(d)))
                     .style("top", function () { return (d3.event.pageY - 100)+"px"})
                     .style("left", function () { return (d3.event.pageX - 100)+"px";})
@@ -197,7 +198,7 @@
 
           function mouseover(d, i) {
             d3.select("#tooltip")
-              .style("visibility", "visible")
+              .style("visibility", "hidden")
               .html(groupTip(rdr(d)))
               .style("top", function () { return (d3.event.pageY - 80)+"px"})
               .style("left", function () { return (d3.event.pageX - 130)+"px";})
