@@ -1,5 +1,8 @@
 //*******************************************************************
-//  CHORD MAPPER 
+// This script is taken from:
+//    http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3, written by Steven Hall
+//
+// CHORD MAPPER 
 //*******************************************************************
 function chordMpr (data) {
   var mpr = {}, mmap = {}, n = 0,
