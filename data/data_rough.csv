@@ -1,0 +1,49 @@
+Pathway,Origin,Destination,Count
+Noradrenergic,Locus Coeruleus,Amygdala
+Noradrenergic,Locus Coeruleus,Hippocampus
+Noradrenergic,Locus Coeruleus,Brain stem
+Noradrenergic,Locus Coeruleus,Spinal cord
+Noradrenergic,Locus Coeruleus,Cerebellum
+Noradrenergic,Locus Coeruleus,Cerebral cortex
+Noradrenergic,Locus Coeruleus,Hypothalamus
+Noradrenergic,Locus Coeruleus,Tectum
+Noradrenergic,Locus Coeruleus,Thalamus
+Noradrenergic,Locus Coeruleus,Ventral tegmental area
+Noradrenergic,Lateral Tegmental Field,Brain stem
+Noradrenergic,Lateral Tegmental Field,Spinal cord
+Noradrenergic,Lateral Tegmental Field,Olfactory bulb
+Dopaminergic,Ventral Tegmental Area,Amygdala
+Dopaminergic,Ventral Tegmental Area,Cingulate cortex
+Dopaminergic,Ventral Tegmental Area,Hippocampus
+Dopaminergic,Ventral Tegmental Area,Nucleus accumbens
+Dopaminergic,Ventral Tegmental Area,Olfactory bulb
+Dopaminergic,Ventral Tegmental Area,Prefrontal cortex
+Dopaminergic,Substantia nigra,Dorsal striatum 
+Dopaminergic,Arcuate nucleus,Hypothalamus
+Histaminergic,Tuberomammillary Nucleus,Cerebral cortex
+Histaminergic,Tuberomammillary Nucleus,Hippocampus
+Histaminergic,Tuberomammillary Nucleus,Neostriatum
+Histaminergic,Tuberomammillary Nucleus,Nucleus accumbens
+Histaminergic,Tuberomammillary Nucleus,Amygdala
+Histaminergic,Tuberomammillary Nucleus,Hypothalamus
+Serotonergic,Caudal Nuclei,Cerebral cortex
+Serotonergic,Caudal Nuclei,Thalamus
+Serotonergic,Caudal Nuclei,Caudate putamen and nucleus accumbens
+Serotonergic,Caudal Nuclei,Substantia nigra and ventral tegmental area
+Serotonergic,Rostral Nuclei,Amygdala
+Serotonergic,Rostral Nuclei,Cingulate cortex
+Serotonergic,Rostral Nuclei,Hippocampus
+Serotonergic,Rostral Nuclei,Hypothalamus
+Serotonergic,Rostral Nuclei,Neocortex
+Serotonergic,Rostral Nuclei,Septum
+Serotonergic,Rostral Nuclei,Thalamus
+Serotonergic,Rostral Nuclei,Ventral tegmental area
+Cholinergic,Nucleus Basalis of Meynert,Hippocampus
+Cholinergic,Nucleus Basalis of Meynert,Cerebral cortex
+Cholinergic,Nucleus Basalis of Meynert,Limbic cortex and sensory cortex
+Cholinergic,Brainstem Cholinergic Nuclei,Ventral tegmental area
+Cholinergic,Brainstem Cholinergic Nuclei,Thalamus
+Cholinergic,Forebrain Cholinergic Nuclei,Hippocampus
+Cholinergic,Forebrain Cholinergic Nuclei,Cerebral cortex
+Cholinergic,Forebrain Cholinergic Nuclei,Limbic cortex 
+Cholinergic,Forebrain Cholinergic Nuclei,Sensory cortex
