@@ -1,0 +1,75 @@
+has,prefers,count
+"Noradrenaline system","Amygdala",80
+"Amygdala","Noradrenaline system",2000
+"Noradrenaline system","Brain stem",80
+"Brain stem","Noradrenaline system",2000
+"Noradrenaline system","Cerebellum",80
+"Cerebellum","Noradrenaline system",2000
+"Noradrenaline system","Cerebral cortex",80
+"Cerebral cortex","Noradrenaline system",2000
+"Noradrenaline system","Hypothalamus",80
+"Hypothalamus","Noradrenaline system",2000
+"Noradrenaline system","Ventral tegmental area",80
+"Ventral tegmental area","Noradrenaline system",2000
+"Dopamine system","Amygdala",80
+"Amygdala","Dopamine system",2000
+"Dopamine system","Cingulate cortex",80
+"Cingulate cortex","Dopamine system",2000
+"Dopamine system","Hippocampus",80
+"Hippocampus","Dopamine system",2000
+"Dopamine system","Nucleas accumbens",80
+"Nucleaus accumbens","Dopamine system",2000
+"Dopamine system","Olfactory bulb",80
+"Olfactory bulb","Dopamine system",2000
+"Dopamine system","Prefrontal cortex",80
+"Prefrontal cortex","Dopamine system",2000
+"Histamine system","Cerebral cortex",80
+"Cerebral cortex","Histamine system",2000
+"Histamine system","Hippocampus",80
+"Hippocampus","Histamine system",2000
+"Histamine system","Neostriatum",80
+"Neostriatum","Histamine system",2000
+"Histamine system","Nucleus accumbens",80
+"Nucleus accumbens","Histamine system",2000
+"Histamine system","Amygdala",80
+"Amygdala","Histamine system",2000
+"Histamine system","Hypothalamus",80
+"Hypothalamus","Histamine system",2000
+"Serotonin system","Cerebral cortex",80
+"Cerebral cortex","Serotonin system",2000
+"Serotonin system","Thalamus",80
+"Thalamus","Serotonin system",2000
+"Serotonin system","Caudate putamen",80
+"Caudate putamen","Serotonin system",2000
+"Serotonin system","Substantia nigra",80
+"Substantia nigra","Serotonin system",2000
+"Serotonin system","Amygdala",80
+"Amygdala","Serotonin system",2000
+"Serotonin system","Cingulate cortex",80
+"Cingulate cortex","Serotonin system",2000
+"Serotonin system","Hippocampus",80
+"Hypocampus","Serotonin system",2000
+"Serotonin system","Hypothalamus",80
+"Hypothalamus","Serotonin system",2000
+"Serotonin system","Neocortex",80
+"Neocortex","Serotonin system",2000
+"Serotonin system","Septum",80
+"Septum","Serotonin system",2000
+"Serotonin system","Thalamus",80
+"Thalamus","Serotonin system",2000
+"Serotonin system","Ventral tegmental area",80
+"Ventral tegmental area","Serotonin system",2000
+"Acetycholine system","Hippocampus",80
+"Hippocampus","Acetycholine system",2000
+"Acetycholine system","Cerebral cortex",80
+"Cerebral cortex","Acetycholine system",2000
+"Acetycholine system","Limbic cortex",80
+"Limbic cortex","Acetycholine system",2000
+"Acetycholine system","Ventral tegmental area",80
+"Ventral tegmental area","Acetycholine system",2000
+"Acetycholine system","Thalamus",80
+"Thalamus","Acetycholine system",2000
+"Acetycholine system","Hippocampus",80
+"Hippocampus","Acetycholine system",2000
+"Acetycholine system","Cerebral cortex",80
+"Cerebral cortex","Acetycholine system",2000
